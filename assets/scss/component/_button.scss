@@ -1,0 +1,126 @@
+/* =================== BUTTON =================== */
+button{
+  cursor: pointer;
+  transition: 0.25s ease-in-out;
+  &:hover{ 
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    transform: translateY(-0.15em);
+  }
+}
+
+.btn-wrap.tac{
+  text-align: center;
+}
+
+.btn {
+  background: #5f8ee4;
+  border: none;
+  border-radius: 0.4em;
+  box-shadow: none;
+  cursor: pointer;
+  font: 17.6px "Open Sans", Arial, sans-serif;
+  color: #ffffff;
+}
+
+$color-dark:  #161616;
+$color-green: #3dd28d;
+$color-yellow: #feee7d;
+
+
+$btn-colors: (
+  bg-default: (
+    bg-color: transparent,
+    color:#333,
+    border:#333,
+  ),
+  bg-main: (
+    bg-color:$main-color,
+  ),
+  bg-green: (
+    bg-color: $color-green,
+  ),
+  bg-yellow:(
+    bg-color: $color-yellow,
+  )
+);
+
+@each $key, $value in $btn-colors {
+  .#{$key} {
+    background-color: map-get($value, bg-color);
+    color: map-get($value, color)!important;
+    border: 1px solid map-get($value, border)!important;
+    position: relative;
+
+    --hover : #{adjust-hue(map-get($value, bg-color), 0deg)};
+  
+  }
+}
+
+$btn-sizes: (
+  btn-xm:(
+    padding: 0.3rem 0.3rem,
+    font-size: 0.8rem,
+    radius : 15px,
+    font-w : bold,
+  ),
+  btn-sm: (
+    padding: 0.4rem 0.4rem,
+    font-size: 0.9rem,
+    font-w : bold,
+  ),
+  btn-mid: (
+    padding: 0.625rem 2.075rem,
+    font-size:1.1rem,
+    font-w : bold,
+  ),
+  btn-lg: (
+    padding: .925rem 3.125rem,
+    font-size: 1.4rem,
+    font-w : bold,
+  ),
+);
+
+@each $key, $value in $btn-sizes {
+  .#{$key} {
+    display: inline-flex;
+    padding: map-get($value, padding);
+    font-size: map-get($value, font-size);
+    font-weight: map-get($value, font-w);
+    align-self: map-get($value, align-self);
+    height: map-get($value, h);;
+    border-radius: map-get($value, radius);
+    align-items: center;
+    color: #fff;
+  }
+}
+
+$btn-radius: (
+  radius-sm: (
+    radius: 10px,
+  ),
+  radius-mid: (
+    radius: 15px,
+  ),
+  radius-lg: (
+    radius: 20px,
+  ),
+);
+
+@each $key, $value in $btn-radius {
+  .#{$key} {
+    border-radius: map-get($value, radius);
+  }
+}
+
+.btn.btn-outline {
+  background: transparent;
+  border: .0625rem solid #5f8ee4;
+  color: #333!important;
+}
+
+.btn.btn-disabled {
+  opacity: 0.6;
+  cursor: default;
+}
+
+//////////////////////////////////// //BUTTON TYPE ////////////////////////////////////
