@@ -10,23 +10,23 @@ h5 {
 }
 
 h1 {
-	font-size: 2.5rem;
+	font-size: 40px;
 }
 
 h2 {
-	font-size: 2.2rem;
+	font-size: 35.2px;
 }
 
 h3 {
-	font-size: 2rem;
+	font-size: 32px;
 }
 
 h4 {
-	font-size: 1.8rem;
+	font-size: 28.8px;
 }
 
 h5 {
-	font-size: 1.6rem;
+	font-size: 25.6px;
 }
 
 p {
@@ -86,7 +86,7 @@ a:hover {
 	-webkit-border-radius: 0.4em;
 	border-radius: 0.4em;
 	box-shadow: none;
-	font: 1.1rem "Open Sans", Arial, sans-serif;
+	font: 17.6px "Open Sans", Arial, sans-serif;
 	color: #ffffff;
 }
 .btn:not(.btn-disabled):hover {
@@ -118,7 +118,7 @@ a:hover {
 form .input-container input[type="text"] {
 	border: 2px solid #e0e0e0;
 	border-radius: 4px;
-	padding: 0.5rem 0.7rem;
+	padding: 8px 11.2px;
 	width: 100%;
 	background-color: #ffffff;
 	color: #19191a;
@@ -129,35 +129,35 @@ form {
 	font-family: "Open Sans", Arial, sans-serif;
 }
 form fieldset {
-	margin-bottom: 1rem;
+	margin-bottom: 16px;
 }
 form fieldset legend {
 	display: block;
 	color: #19191a;
-	font-size: 1rem;
+	font-size: 16px;
 	font-weight: 600;
-	margin-bottom: 0.55rem;
+	margin-bottom: 8.8px;
 }
 form .input-container {
 	position: relative;
-	margin-bottom: 1rem;
+	margin-bottom: 16px;
 }
 form .input-container label {
 	display: block;
 	color: #323234;
 	font-family: "Open Sans", Arial, sans-serif;
-	font-size: 1rem;
+	font-size: 16px;
 	font-weight: 600;
-	margin-bottom: 0.55rem;
+	margin-bottom: 8.8px;
 	text-transform: uppercase;
 	position: absolute;
-	left: 0.85rem;
-	top: 0.65rem;
+	left: 13.6px;
+	top: 10.4px;
 }
 form .input-container input[type="text"] {
 	font-family: "Open Sans", Arial, sans-serif;
-	font-size: 1rem;
-	padding-top: 2rem;
+	font-size: 16px;
+	padding-top: 32px;
 }
 form .input-container input[type="text"]:focus {
 	border-color: #5f8ee4;
@@ -186,10 +186,10 @@ form .option-container label {
 	width: 100%;
 	display: block;
 	font-family: "Open Sans", Arial, sans-serif;
-	font-size: 1rem;
-	padding-top: 1rem;
-	padding-bottom: 1rem;
-	padding-left: 2.4rem;
+	font-size: 16px;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	padding-left: 38.4px;
 	-moz-user-select: -moz-none;
 	-ms-user-select: none;
 	-webkit-user-select: none;
@@ -240,7 +240,7 @@ form .option-container input[type="radio"]:checked + label:after {
 	border-radius: 4px;
 	background-color: #5f8ee4;
 	color: #ffffff;
-	padding: 0.4rem 0.9rem 0.4rem;
+	padding: 6.4px 14.4px 6.4px;
 	position: relative;
 	max-width: 100%;
 }
@@ -272,7 +272,7 @@ form .option-container input[type="radio"]:checked + label:after {
 table {
 	width: 100%;
 	font-family: "Open Sans", Arial, sans-serif;
-	font-size: 0.9rem;
+	font-size: 14.4px;
 	color: #19191a;
 }
 table thead tr {
@@ -308,7 +308,7 @@ table tbody tr td .btn {
 	padding: 0.2em 1.2em;
 	margin: 0 0.2em;
 	display: inline-block;
-	font-size: 0.9rem;
+	font-size: 14.4px;
 }
 table tbody tr:nth-child(even) {
 	background-color: #ededed;
@@ -374,7 +374,7 @@ h1.masterTitle {
 	margin-bottom: 40px;
 }
 .guide section > h2 {
-	font-size: 1.5rem;
+	font-size: 24px;
 	margin-bottom: 20px;
 	padding: 8px 10px;
 	background-color: #f2f2f2;
@@ -400,7 +400,7 @@ h1.masterTitle {
 	clear: both;
 }
 .guide section .content {
-	margin: 0px 2rem;
+	margin: 0px 32px;
 }
 .guide section .flex {
 	display: -webkit-flex;

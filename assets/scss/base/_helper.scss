@@ -70,13 +70,6 @@
   }
 }
 
-// flexible content wrap
-.clear:after {
-  content: "";
-  display: block;
-  clear: both;
-}
-
 .scroll-custom {
   overflow-y: auto;
 

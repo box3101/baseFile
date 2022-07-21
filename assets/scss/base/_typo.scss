@@ -57,30 +57,3 @@
     url("../fonts/NotoSansKR-Thin.otf") format("opentype");
 }
 
-// gmarket
-@font-face {
-  font-family: "gmarket";
-  font-weight: 600;
-  src: local("gmarket bold"), local("gmarket bold"), url("../fonts/GmarketSansTTFBold.woff") format("woff"),
-    url("../fonts/GmarketSansTTFBold.ttf") format("truetype"), url("../fonts/GmarketSansBold.otf") format("opentype");
-}
-@font-face {
-  font-family: "gmarket";
-  font-weight: 500;
-  src: local("gmarket Medium"), local("gmarket Medium"), url("../fonts/GmarketSansTTFMedium.woff") format("woff"),
-    url("../fonts/GmarketSansTTFMedium.ttf") format("truetype"),
-    url("../fonts/GmarketSansMedium.otf") format("opentype");
-}
-
-@font-face {
-  font-family: "gmarket";
-  font-weight: 300;
-  src: local("gmarket light"), local("gmarket light"), url("../fonts/GmarketSansTTFLight.woff") format("woff"),
-    url("../fonts/GmarketSansTTFLight.ttf") format("truetype"), url("../fonts/GmarketSansLight.otf") format("opentype");
-}
-@font-face {
-  font-family: "GmarketSansMedium";
-  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}

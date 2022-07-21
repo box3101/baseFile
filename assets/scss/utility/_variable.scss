@@ -1,20 +1,16 @@
 /*---------------------------- COLOR ----------------------------*/
 $main-color: #0055a2;
-$main-color-name: '$main-color';
-
 $secondary-color: #0000ff;
-$secondary-color-name: '$secondary-color';
-
-$tertiary-color: #fb3;
-$tertiary-color-name: '$tertiary-color';
-
-$accent-color: #FF6347;
-$accent-color-name: '$accent-color';
+$c-black: #333;
+$c-green: green;
+$c-orange: orange;
+$c-yellow: yellow;
 
 /*---------------------------- 반응형 ----------------------------*/
 $b-web: 1200px;
 $b-tab: 900px;
 $b-mo: 600px;
+$b-sm-mo: 360px;
 
 $zIndex-set: (
   popup: 100,

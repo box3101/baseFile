@@ -1,46 +1,36 @@
 /* =================== BUTTON =================== */
-button{
+a.btn,button,input.btn{
+  display: inline-block;
+  position: relative;
+  top: 0;
   cursor: pointer;
   transition: 0.25s ease-in-out;
-  &:hover{ 
-    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
-    transform: translateY(-0.15em);
+  border-radius: 10px;
+  font: 500 16px/1 "Noto Sans KR";
+  padding: 20px;
+  box-sizing: border-box;
+  color: #fff;
+  &:hover,&.hover{ 
+    top: -3px;
+		box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
   }
 }
-
-.btn-wrap.tac{
-  text-align: center;
-}
-
-.btn {
-  background: #5f8ee4;
-  border: none;
-  border-radius: 0.4em;
-  box-shadow: none;
-  cursor: pointer;
-  font: 17.6px "Open Sans", Arial, sans-serif;
-  color: #ffffff;
-}
-
-$color-dark:  #161616;
-$color-green: #3dd28d;
-$color-yellow: #feee7d;
-
 
 $btn-colors: (
   bg-default: (
     bg-color: transparent,
-    color:#333,
-    border:#333,
+    color:$c-black,
+    bd-color: #333,
   ),
   bg-main: (
-    bg-color:$main-color,
+    bg-color: $main-color,
   ),
   bg-green: (
-    bg-color: $color-green,
+    bg-color: $c-green,
   ),
   bg-yellow:(
-    bg-color: $color-yellow,
+    bg-color: $c-yellow,
+    color:$c-black,
   )
 );
 
@@ -48,61 +38,46 @@ $btn-colors: (
   .#{$key} {
     background-color: map-get($value, bg-color);
     color: map-get($value, color)!important;
-    border: 1px solid map-get($value, border)!important;
-    position: relative;
-
-    --hover : #{adjust-hue(map-get($value, bg-color), 0deg)};
-  
+    border: 1px solid map-get($value, color);
   }
 }
 
 $btn-sizes: (
-  btn-xm:(
-    padding: 0.3rem 0.3rem,
-    font-size: 0.8rem,
-    radius : 15px,
-    font-w : bold,
+  size-xsm:(
+    padding: 5px,
+    size: 10px,
   ),
-  btn-sm: (
-    padding: 0.4rem 0.4rem,
-    font-size: 0.9rem,
-    font-w : bold,
+  size-sm: (
+    padding: 10px,
+    size : 12px,
   ),
-  btn-mid: (
-    padding: 0.625rem 2.075rem,
-    font-size:1.1rem,
-    font-w : bold,
+  size-lg: (
+    padding: 30px,
+    size : 20px,
   ),
-  btn-lg: (
-    padding: .925rem 3.125rem,
-    font-size: 1.4rem,
-    font-w : bold,
-  ),
+  size-xlg: (
+    padding: 40px,
+    size:25px,
+  )
 );
 
 @each $key, $value in $btn-sizes {
   .#{$key} {
-    display: inline-flex;
-    padding: map-get($value, padding);
-    font-size: map-get($value, font-size);
+    padding: map-get($value, padding)!important;
+    font-size: map-get($value, size)!important;
     font-weight: map-get($value, font-w);
-    align-self: map-get($value, align-self);
-    height: map-get($value, h);;
-    border-radius: map-get($value, radius);
-    align-items: center;
-    color: #fff;
   }
 }
 
 $btn-radius: (
-  radius-sm: (
-    radius: 10px,
+  r-sm: (
+    radius: 5px,
   ),
-  radius-mid: (
-    radius: 15px,
-  ),
-  radius-lg: (
+  r-mid: (
     radius: 20px,
+  ),
+  r-lg: (
+    radius: 30px,
   ),
 );
 
@@ -124,3 +99,4 @@ $btn-radius: (
 }
 
 //////////////////////////////////// //BUTTON TYPE ////////////////////////////////////
+/// 

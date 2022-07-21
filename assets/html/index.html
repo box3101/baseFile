@@ -2,76 +2,103 @@
 <html lang="ko">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport"
-        content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=10.0,user-scalable=yes" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport"
+    content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=10.0,user-scalable=yes" />
 
-    <!-- =================== LINK =================== -->
-    <!-- fancybox css -->
-    <link rel="stylesheet" href="../css/fancybox.css" />
-    <!-- datepicker css -->
-    <link rel="stylesheet" type="text/css" href="../css/datepicker.min.css" />
-    <!-- jquery-ui css -->
-    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
-    <!-- swiper css -->
-    <link rel="stylesheet" href="../css/swiper.min.css">
-    <link rel="stylesheet" href="../css/ui.css">
+  <!-- =================== LINK =================== -->
+  <!-- fancybox css -->
+  <link rel="stylesheet" href="../css/fancybox.css" />
+  <!-- datepicker css -->
+  <link rel="stylesheet" type="text/css" href="../css/datepicker.min.css" />
+  <!-- jquery-ui css -->
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+  <!-- swiper css -->
+  <link rel="stylesheet" href="../css/swiper.min.css">
+  <link rel="stylesheet" href="../css/ui.css">
 
-    <!-- =================== SCRIPT =================== -->
-    <script src="../js/jquery.js"></script>
+  <!-- =================== SCRIPT =================== -->
+  <script src="../js/jquery.js"></script>
 
-    <!-- jquery-ui js -->
-    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
-    <!-- fontawesome js -->
-    <script src="https://kit.fontawesome.com/6221c269fb.js" crossorigin="anonymous"></script>
-    <!-- fancybox js -->
-    <script src="../js/fancybox.umd.js"></script>
-    <!-- navigo js -->
-    <script type="text/javascript" src="../js/jquery.navgoco.js"></script>
-    <!-- datepicker js -->
-    <script src="../js/datepicker.min.js"></script>
-    <!-- wow js -->
-    <script src="../js/wow.js"></script>
-    <!-- swiper js -->
-    <script src="../js/swiper.min.js"></script>
-    <!-- main js -->
-    <script src="../js/main.js"></script>
+  <!-- jquery-ui js -->
+  <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+  <!-- fontawesome js -->
+  <script src="https://kit.fontawesome.com/6221c269fb.js" crossorigin="anonymous"></script>
+  <!-- fancybox js -->
+  <script src="../js/fancybox.umd.js"></script>
+  <!-- navigo js -->
+  <script type="text/javascript" src="../js/jquery.navgoco.js"></script>
+  <!-- datepicker js -->
+  <script src="../js/datepicker.min.js"></script>
+  <!-- wow js -->
+  <script src="../js/wow.js"></script>
+  <!-- swiper js -->
+  <script src="../js/swiper.min.js"></script>
+  <!-- main js -->
 
-    <title>Document</title>
+  <script src="../js/main.js"></script>
+
+  <title>Document</title>
 </head>
 
 <body>
-    <!-- 메인이 들어가는 부분 -->
-    <main class="main-wrap" id="">
-        <div class="inner">
-            <div class="flex space">
-                <div class="box">13</div>
-                <div class="box">13</div>
-                <div class="box">13</div>
-            </div>
-        </div>
-    </main>
-    <!-- 메인이 들어가는 부분 eee -->
+  <!-- 메인이 들어가는 부분 -->
+  <main class="main-wrap" id="" style="padding-top:30px;padding-left: 20px;">
 
-    <script>
-    $(function () {
-      $("#dialog").dialog({
-        autoOpen: false,
-        modal: true,
-        buttons: {
-          닫기: function () {
-            $(this).dialog("close");
-          }
-        }
-      });
+    <!-- 버튼 스타일 -->
+    <div class="btn-wrap">
+      <h3
+        style="text-align: left;font-size:40px;margin-bottom:30px;padding-bottom: 10px; border-bottom: 1px solid #333;">
+        버튼 type</h3>
 
-      $("#opener").on("click", function () {
-        $("#dialog").dialog("open");
-      });
+      <div class="btn-wraps">
+        <a href="#" class="btn bg-default">
+          testtesttesttesttesttest
+        </a>
+        <button class="btn bg-main size-sm">
+          1313
+        </button>
+        <a href="#" class="btn bg-green size-lg r-sm">
+          testest
+        </a>
+        <a href="#" class="btn bg-yellow size-xlg r-mid">
+          testest222
+        </a>
+        <a href="#" class="btn bg-yellow size-xsm r-lg">
+          testest222333
+        </a>
+      </div>
+    </div>
+    <!-- //버튼 스타일 -->
 
-    });
-  </script>
+    <!-- 버튼 스타일 -->
+    <div class="btn-wrap">
+      <h3
+        style="text-align: left;font-size:40px;margin-bottom:30px;padding-bottom: 10px; border-bottom: 1px solid #333;">
+        버튼 type</h3>
+
+      <div class="btn-wraps">
+        <a href="#" class="btn bg-default">
+          testtesttesttesttesttest
+        </a>
+        <button class="btn bg-main size-sm">
+          1313
+        </button>
+        <a href="#" class="btn bg-green size-lg">
+          testest
+        </a>
+        <a href="#" class="btn bg-yellow size-xlg">
+          testest222
+        </a>
+        <a href="#" class="btn bg-yellow size-xsm">
+          testest222333
+        </a>
+      </div>
+    </div>
+    <!-- //버튼 스타일 -->
+  </main>
+  <!-- 메인이 들어가는 부분 eee -->
 
 </body>
 
