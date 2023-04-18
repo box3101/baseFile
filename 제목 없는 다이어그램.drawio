@@ -1,1 +1,25 @@
-<mxfile host="app.diagrams.net" modified="2023-04-18T06:19:21.487Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" version="20.8.17" etag="WY6qFlDk0esoyA4Hka-c" type="github"><diagram name="페이지-1" id="A6EADjW1H3CZ3hZ-hUQ2">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-04-18T06:21:50.097Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="BeB_En_gfEuBGafdcZ23" version="20.8.17" type="github">
+  <diagram name="페이지-1" id="A6EADjW1H3CZ3hZ-hUQ2">
+    <mxGraphModel dx="1195" dy="630" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="300000" pageHeight="300000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="fc_fnsUSABzeIWkJWJP7-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fc_fnsUSABzeIWkJWJP7-1" target="fc_fnsUSABzeIWkJWJP7-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fc_fnsUSABzeIWkJWJP7-1" value="문자열 s를 받음" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="350" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fc_fnsUSABzeIWkJWJP7-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fc_fnsUSABzeIWkJWJP7-2" target="fc_fnsUSABzeIWkJWJP7-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fc_fnsUSABzeIWkJWJP7-2" value="s의 첫글자를 읽음&lt;br&gt;이글자를 x라 표시" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="510" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fc_fnsUSABzeIWkJWJP7-9" value="s를 왼쪽에서 오른쪽으로 읽거 가면서&lt;br&gt;x와 x가 아닌 다른 글자들이 나온 횟수를 각각 셈" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="670" width="300" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
